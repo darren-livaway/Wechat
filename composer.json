@@ -3,7 +3,7 @@
     "secure-http": false
   },
   "repositories": [
-    {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+    {"type": "composer", "url": "https://packagist.org"},
     {
       "type": "git", "url": "git@code.365yf.cc:sh_coin_server/xphalcon.git"
     },
