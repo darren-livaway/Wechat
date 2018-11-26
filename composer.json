@@ -1,0 +1,22 @@
+{
+  "config": {
+    "secure-http": false
+  },
+  "repositories": [
+    {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+    {
+      "type": "git", "url": "git@code.365yf.cc:sh_coin_server/xphalcon.git"
+    },
+    {"type":"git","url":"git@code.365yf.cc:sh_coin_server/otceasy_php.git"},
+    {"packagist": false}
+  ],
+  "require": {
+    "sh_server/xphalcon": "@dev",
+    "lmxdawn/php-rsa": "@dev",
+    "phlib/base_convert":"1.0.0",
+    "ratchet/pawl": "^0.3.1",
+    "bitwasp/bitcoin": "^0.0.35",
+    "qiniu/php-sdk": "^7.2",
+    "jaeger/querylist": "@dev"
+  }
+}
